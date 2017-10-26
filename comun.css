@@ -1,6 +1,10 @@
 ﻿html{
 	font-family: 'Comfortaa', cursive;
 }
-.noticias{
-	
+a{
+	text-decoration: none;
+	color: black;
+}
+.leer{
+	font-weight: 600;
 }

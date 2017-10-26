@@ -6,13 +6,13 @@
 	<style>
 @import url('https://fonts.googleapis.com/css?family=Comfortaa');
 </style>
-	<title>El uff y ton pos</title>
-	<meta author="Juansi">
-	<meta author="Raquetista">
-	<meta author="Serkey">
+	<title>Nuestra Página Web</title>
+	<meta author="Juan">
+	<meta author="Adrián González">
+	<meta author="Sergio">
 	<meta description="Página de noticias">
 	<meta keywords="Noticias, Viajes, eSports, Videojuegos">
-</head>
+</head> 
 <body>
 <header>
 	<figure>
@@ -35,7 +35,44 @@
 <p>Empanadilla with chorizo</p>
 </div>
 
-
+<a name="Inicio">
+	<form method="GET" action="server.php">
+		<fieldset>
+			<legend>Datos de Suscripción</legend>
+		<p>
+			<label for="txtNombre">Nombre y Apellidos: </label><input type="nombre" name="nombre" required="required">
+		</p>
+		<p>
+			<label for="txtNac">Fecha de Nacimiento: </label><input type="date" name="fechaSalida" max2017-10-26" required="required">
+		</p>
+		<p>
+			<label for="txtEmail">Correo Electronico: </label><input type="email" name="correo" required="required">
+		</p>
+		<p>
+			<label for="txtCalle">Dirección: </label><input type="nombre" name="calle" required="required">
+		</p>
+		<p>
+			<label for="txtProvincia">Provincia: </label> <input type="nombre" name="provincia" required="required">
+		</p>
+		<p>
+			<label for="txtContact">Telefono: </label> <input type="number" name="contact" required="required">
+		</p>
+		<p>
+			<label for="txtCuenta">Numero de Cuenta: </label><input type="number" name="cuenta" required="required">
+		</p>
+		<p>
+			<label for="txtSuscripcion" required="required">Tipo de Suscripcion: </label><select name="Suscripcion">
+ 			 <option value="3 Meses">3 Meses</option>
+ 			 <option value="6 Meses">6 Meses</option>
+ 			 <option value="1 Año">1 Año</option>
+ 			 </select>
+ 		</p>
+		<p>
+			<input type="submit" value="Suscribete">
+		</p>
+</fieldset>
+</form>
+</a>
 </body>
 <footer></footer>
 </html>

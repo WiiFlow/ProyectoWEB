@@ -6,13 +6,20 @@
 	<style>
 @import url('https://fonts.googleapis.com/css?family=Comfortaa');
 </style>
+<<<<<<< HEAD
+	<title>Nuestra Página Web</title>
+	<meta author="Juan">
+	<meta author="Adrián González">
+	<meta author="Sergio">
+=======
 	<title>ElApasionadoMundoDesconocido</title>
 	<meta author="Juan Martínez">
 	<meta author="Adrián Gonzalez">
 	<meta author="Segio Ocampo">
+>>>>>>> 3b1d2a110878b5dd2e4627feb2d8fb5526b82008
 	<meta description="Página de noticias">
 	<meta keywords="Noticias, Viajes, eSports, Videojuegos">
-</head>
+</head> 
 <body>
 <header>
 	<h1>ElApasionadoMundoDesconocido</h1>
@@ -41,15 +48,54 @@
 	<section class="Viajes">
 		<article class="#"> 
 			<h2>¿Budapest es un destino interesante para tus vacaciones?</h2>
+
 			<small>Realizado por Juan Martínez</small>
-			<p>Budapest está ubicado en Hungría sufrió todo tipo de cambios politicos en su ideologia a lo largo de los años.Es un destino bastante infravalorado por la gente, no es el tipico destino de viaje como puede ser Roma,Paris o Londres. Los vuelos fueron baratos, desde Vigo haciendo conexión en Milán. E</p>
+			<p>Budapest está ubicado en Hungría sufrió todo tipo de cambios politicos en su ideologia a lo largo de los años.Es un destino bastante infravalorado por la gente, no es el tipico destino de viaje como puede ser Roma,Paris o Londres. Los vuelos fueron baratos, desde Vigo haciendo conexión en Milán.</p>
+			<p></p>
 		</article>
 		<!-- <aside><img src="koreanad.jpg"></aside>  -->
 	</main>
 
 </div>
 
-
+<a name="Inicio">
+	<form method="GET" action="server.php">
+		<fieldset>
+			<legend>Datos de Suscripción</legend>
+		<p>
+			<label for="txtNombre">Nombre y Apellidos: </label><input type="nombre" name="nombre" required="required">
+		</p>
+		<p>
+			<label for="txtNac">Fecha de Nacimiento: </label><input type="date" name="fechaSalida" max2017-10-26" required="required">
+		</p>
+		<p>
+			<label for="txtEmail">Correo Electronico: </label><input type="email" name="correo" required="required">
+		</p>
+		<p>
+			<label for="txtCalle">Dirección: </label><input type="nombre" name="calle" required="required">
+		</p>
+		<p>
+			<label for="txtProvincia">Provincia: </label> <input type="nombre" name="provincia" required="required">
+		</p>
+		<p>
+			<label for="txtContact">Telefono: </label> <input type="number" name="contact" required="required">
+		</p>
+		<p>
+			<label for="txtCuenta">Numero de Cuenta: </label><input type="number" name="cuenta" required="required">
+		</p>
+		<p>
+			<label for="txtSuscripcion" required="required">Tipo de Suscripcion: </label><select name="Suscripcion">
+ 			 <option value="3 Meses">3 Meses</option>
+ 			 <option value="6 Meses">6 Meses</option>
+ 			 <option value="1 Año">1 Año</option>
+ 			 </select>
+ 		</p>
+		<p>
+			<input type="submit" value="Suscribete">
+		</p>
+</fieldset>
+</form>
+</a>
 </body>
 <footer></footer>
 </html>

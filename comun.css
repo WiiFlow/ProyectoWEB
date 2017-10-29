@@ -8,3 +8,9 @@ a{
 .leer{
 	font-weight: 600;
 }
+main{
+	width: 85%;
+}
+p{
+	line-height: 1.19;
+}
